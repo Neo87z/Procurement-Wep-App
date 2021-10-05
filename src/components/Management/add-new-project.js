@@ -197,11 +197,11 @@ export default class TutorialsList extends Component {
             let data = item.val();
             tutorials.push({
                 key: key,
-                EmployeeName: data.EmployeeName,
-                Username: data.Username,
-                EmailAddress: data.EmailAddress,
-                TempPassword: data.TempPassword,
-                ConactNumber: data.ConactNumber,
+                EmployeeName: data.empname,
+                Username: data.user,
+                EmailAddress: data.mail,
+                TempPassword: data.pass,
+                ConactNumber: data.phone,
             });
         });
 
@@ -243,10 +243,11 @@ export default class TutorialsList extends Component {
 
                     {this.state.submitted ? (
                         <div style={{ marginTop: '-900px' }}>
-                            <h4>Project Have Been Sucessfully Created!</h4>
+                            <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
+                        <center>    <h4>Project Have Been Sucessfully Created!</h4>
                             <button className="btn btn-success" onClick={this.newSuplier}>
                                 Create Another Project
-                            </button>
+                            </button></center>
                         </div>
                     ) : (
                         <div>

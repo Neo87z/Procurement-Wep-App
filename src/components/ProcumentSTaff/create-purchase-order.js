@@ -42,7 +42,7 @@ export default class TutorialsList extends Component {
         this.onChangeQuantity5 = this.onChangeQuantity5.bind(this);
         this.onChangeRequestCode = this.onChangeRequestCode.bind(this);
 
-        
+
         this.state = {
             items: [],
             tutorials: [],
@@ -74,12 +74,12 @@ export default class TutorialsList extends Component {
             Quantity3: '',
             Quantity4: '',
             Quantity5: '',
-            RequestCode:'',
-            Item1Price:0,
-            Item2Price:0,
-            Item3Price:0,
-            Item4Price:0,
-            Item5Price:0,
+            RequestCode: '',
+            Item1Price: 0,
+            Item2Price: 0,
+            Item3Price: 0,
+            Item4Price: 0,
+            Item5Price: 0,
         };
     }
 
@@ -223,14 +223,14 @@ export default class TutorialsList extends Component {
             Quantity4: '',
             Quantity5: '',
             submitted: false,
-            SelectedSuplier:'',
-            RequestCode:this.state.RequestCode,
-            Item5Price:0,
-            Item4Price:0,
-            Item3Price:0,
-            Item3Price:0,
-            Item2Price:0,
-            Item1Price:0,
+            SelectedSuplier: '',
+            RequestCode: this.state.RequestCode,
+            Item5Price: 0,
+            Item4Price: 0,
+            Item3Price: 0,
+            Item3Price: 0,
+            Item2Price: 0,
+            Item1Price: 0,
         });
     }
 
@@ -278,16 +278,16 @@ export default class TutorialsList extends Component {
             Quantity3: this.state.Quantity3,
             Quantity4: this.state.Quantity4,
             Quantity5: this.state.Quantity5,
-            SelectedSuplier:this.state.SelectedSuplier,
+            SelectedSuplier: this.state.SelectedSuplier,
             Paid: false,
             Status: false,
             Delivered: 'No',
-            RequestCode:this.state.RequestCode,
-            Item5Price:this.state.Item5Price,
-            Item4Price:this.state.Item4Price,
-            Item3Price:this.state.Item3Price,
-            Item2Price:this.state.Item2Price,
-            Item1Price:this.state.Item1Price,
+            RequestCode: this.state.RequestCode,
+            Item5Price: this.state.Item5Price,
+            Item4Price: this.state.Item4Price,
+            Item3Price: this.state.Item3Price,
+            Item2Price: this.state.Item2Price,
+            Item1Price: this.state.Item1Price,
         }
         PurcahseOrderData.create(PurchaseOrder)
             .then(() => {
@@ -443,10 +443,11 @@ export default class TutorialsList extends Component {
 
                     {this.state.submitted ? (
                         <div style={{ marginTop: '-900px' }}>
-                            <h4>Project Have Been Sucessfully Created!</h4>
-                            <button className="btn btn-success" onClick={this.newSuplier}>
-                                Create Another Project
-                            </button>
+                            <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
+                            <center>      <h4>Purcahse Order Sucessfully Placed</h4>
+                                <button className="btn btn-success" onClick={this.newSuplier}>
+                                    Make Another Purchase Order
+                                </button></center>
                         </div>
                     ) : (
                         <div>
@@ -456,7 +457,7 @@ export default class TutorialsList extends Component {
 
                                 <Header as='h2' icon textAlign='center'>
                                     <Icon name='user' circular />
-                                    <Header.Content>Add New Project</Header.Content>
+                                    <Header.Content>Create Purcahse Order</Header.Content>
                                 </Header>
 
 
@@ -648,9 +649,9 @@ export default class TutorialsList extends Component {
 
                             <button onClick={this.saveTutorial} className="btn btn-success">
                                 Submit
-                            </button> <br></br> <br></br><br></br> <br></br><br></br> <br></br><br></br> <br></br>  
+                            </button> <br></br> <br></br><br></br> <br></br><br></br> <br></br><br></br> <br></br>
                         </div>
-                       
+
                     )}
 
                 </div>

@@ -120,7 +120,7 @@ export default class TutorialsList extends Component {
             ) : (
               <div>
                 <br />
-                <p>Please Click On A Site Manager To View Data...</p>
+                <p>Please Click On a Item to View Data...</p>
               </div>
             )}
           </div>

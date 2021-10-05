@@ -175,7 +175,7 @@ export default class Tutorial extends Component {
     SupliderDataService.update(this.state.currentTutorial.key, Project)
       .then(() => {
         this.setState({
-          message: "The tutorial was updated successfully!",
+          message: "The Project Details Was Sucessfully Updated!",
         });
       })
       .catch((e) => {
@@ -304,7 +304,7 @@ export default class Tutorial extends Component {
             >
               Update
             </button>
-            <p>{this.state.message}</p>
+            <center><h3> <strong>{this.state.message}</strong></h3></center>
           </div>
         ) : (
           <div>
@@ -312,7 +312,9 @@ export default class Tutorial extends Component {
             <p>Please click on a Tutorial...</p>
           </div>
         )}
+        <br></br>  <br></br>  <br></br>  <br></br>  <br></br>
       </div>
+
     );
   }
 }

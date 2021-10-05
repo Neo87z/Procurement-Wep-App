@@ -142,7 +142,7 @@ export default class TutorialsList extends Component {
           ) : (
             <div>
               <br />
-              <p>Please Click On A Project To View Data...</p>
+              <p>Please Click On Purcahse Order To View...</p>
             </div>
           )}
         </div>

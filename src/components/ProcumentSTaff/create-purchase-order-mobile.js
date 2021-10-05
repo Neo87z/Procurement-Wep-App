@@ -441,11 +441,12 @@ export default class TutorialsList extends Component {
                 <div className="container">
 
                     {this.state.submitted ? (
-                        <div style={{ marginTop: '-900px' }}>
-                            <h4>Project Have Been Sucessfully Created!</h4>
+                        <div >
+                            <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>   <br></br>
+                           <center> <h4>Purcahse Order Have Been Sucessfully Created!</h4>
                             <button className="btn btn-success" onClick={this.newSuplier}>
-                                Create Another Project
-                            </button>
+                                Create Another Purcahse Request
+                            </button></center>
                         </div>
                     ) : (
                         <div>
@@ -455,7 +456,7 @@ export default class TutorialsList extends Component {
 
                                 <Header as='h2' icon textAlign='center'>
                                     <Icon name='user' circular />
-                                    <Header.Content>Add New Project</Header.Content>
+                                    <Header.Content>Create New Purchase Order</Header.Content>
                                 </Header>
 
 

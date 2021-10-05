@@ -81,10 +81,11 @@ export default class AddTutorial extends Component {
 
           {this.state.submitted ? (
             <div style={{ marginTop: '-900px' }}>
-              <h4>Supplier Data Have Been Sucessfully Created!</h4>
+              <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
+            <center>  <h4>Supplier Data Have Been Sucessfully Created!</h4>
               <button className="btn btn-success" onClick={this.newSuplier}>
                 Add Another Supplier
-              </button>
+              </button> </center>
             </div>
           ) : (
             <div>
