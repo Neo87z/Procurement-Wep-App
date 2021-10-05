@@ -27,9 +27,9 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Switch>    
-        <Route exact path="/login" component={Login} />
-          <Route exact path={["/", "/add-new-suplier"]}  component={AddNewSuplier} />
+        <Switch>   
+        <Route exact  path={["/", "/login"]} component={Login} />
+          <Route exact path="/add-new-suplier"  component={AddNewSuplier} />
           <Route exact path="/add-new-procument-staff" component={AddNewProcumentStaff} />
           <Route exact path="/add-new-site-manger" component={AddNewSiteManger} />
           <Route exact path="/manager-supliers" component={ManageSuppliers} />
