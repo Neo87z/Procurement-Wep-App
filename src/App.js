@@ -19,16 +19,14 @@ import ManageItem from "./components/ProcumentSTaff/manage-items";
 import CreatePurchaseOrder from "./components/ProcumentSTaff/create-purchase-order";
 import ManagePurchaseOrder from "./components/ProcumentSTaff/manage-purchase-orders";
 import MobileVIewCreatePurcahse from "./components/ProcumentSTaff/create-purchase-order-mobile";
+import manegPur from "./components/ProcumentSTaff/manage-purchase-orders-mobile";
 
 
 class App extends Component {
   render() {
     return (
       <div>
-
-
-        <Switch>
-        
+        <Switch>    
           <Route exact path={["/", "/add-new-suplier"]}  component={AddNewSuplier} />
           <Route exact path="/add-new-procument-staff" component={AddNewProcumentStaff} />
           <Route exact path="/add-new-site-manger" component={AddNewSiteManger} />
@@ -42,6 +40,7 @@ class App extends Component {
           <Route exact path="/create-purchaese-order" component={CreatePurchaseOrder} />
           <Route exact path="/manage-purchaese-order" component={ManagePurchaseOrder} />
           <Route exact path="/mobileview-create-purchase-order" component={MobileVIewCreatePurcahse} />
+          <Route exact path="/mobileview-manage-purchase-order" component={manegPur} />
         </Switch>
       </div>
       
