@@ -379,9 +379,11 @@ export default class Tutorial extends Component {
     const { currentTutorial } = this.state;
 
     return (
-      <div>
+      <div class="pusher">
+      <div className="container">
         <h4>Purchase Order</h4>
         {currentTutorial ? (
+          
           <div className="edit-form">
             <form>
               <div className="form-group">
@@ -639,6 +641,7 @@ export default class Tutorial extends Component {
           </div>
         )}
         <br></br>  <br></br>  <br></br>  <br></br>
+      </div>
       </div>
     );
   }

@@ -20,6 +20,7 @@ import CreatePurchaseOrder from "./components/ProcumentSTaff/create-purchase-ord
 import ManagePurchaseOrder from "./components/ProcumentSTaff/manage-purchase-orders";
 import MobileVIewCreatePurcahse from "./components/ProcumentSTaff/create-purchase-order-mobile";
 import manegPur from "./components/ProcumentSTaff/manage-purchase-orders-mobile";
+import Login from "../src/components/Management/login"
 
 
 class App extends Component {
@@ -27,6 +28,7 @@ class App extends Component {
     return (
       <div>
         <Switch>    
+        <Route exact path="/login" component={Login} />
           <Route exact path={["/", "/add-new-suplier"]}  component={AddNewSuplier} />
           <Route exact path="/add-new-procument-staff" component={AddNewProcumentStaff} />
           <Route exact path="/add-new-site-manger" component={AddNewSiteManger} />
