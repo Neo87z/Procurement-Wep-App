@@ -18,6 +18,7 @@ import AddItem from "./components/ProcumentSTaff/add-new-item";
 import ManageItem from "./components/ProcumentSTaff/manage-items";
 import CreatePurchaseOrder from "./components/ProcumentSTaff/create-purchase-order";
 import ManagePurchaseOrder from "./components/ProcumentSTaff/manage-purchase-orders";
+import MobileVIewCreatePurcahse from "./components/ProcumentSTaff/create-purchase-order-mobile";
 
 
 class App extends Component {
@@ -40,6 +41,7 @@ class App extends Component {
           <Route exact path="/manage-items" component={ManageItem} />
           <Route exact path="/create-purchaese-order" component={CreatePurchaseOrder} />
           <Route exact path="/manage-purchaese-order" component={ManagePurchaseOrder} />
+          <Route exact path="/mobileview-create-purchase-order" component={MobileVIewCreatePurcahse} />
         </Switch>
       </div>
       
