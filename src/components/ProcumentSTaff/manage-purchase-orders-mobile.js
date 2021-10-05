@@ -101,7 +101,7 @@ export default class TutorialsList extends Component {
        
         <div className="container">
       
-        <div className="col-md-8" style={{ marginTop: '10px', marginLeft: '180px' }}>
+        <div className="col-md-8" style={{ marginTop: '10px' }}>
             
         <Header as='h2' icon textAlign='center'>
                   <Icon name='user' circular />
